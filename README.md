@@ -49,9 +49,13 @@ Make sure to complete these prerequisites before proceeding with the Terraform c
 
 9. **terraform.tfvars:**
    - Contains variable values for different configurations.
+   - Assign specific values to variables without modifying the Terraform configuration files.
+   - Contains key-value pairs assigning values to variables.
 
 10. **variables.tf:**
     - Declares various Terraform variables.
+    - Define and declare variables used within Terraform configurations.
+    - Contains variable declarations, data types, and default values.
 
 11. **vpc.tf:**
     - Sets up an AWS VPC with the specified CIDR block and DNS settings.
@@ -94,21 +98,28 @@ Make sure to complete these prerequisites before proceeding with the Terraform c
 - **Terraform Apply:**
 
   ![Apply Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20150838.png)
-  ![Apply Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20151008.png)
+  ![apply1](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/72e014c4-6636-41d3-8962-f0cae3438b33)
   
 - **Result:**
+  
+  - S3
+    
+   ![s3](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/b0977132-444c-451c-a005-97f218810319)
+   
+  - EC2
+    
+   ![instance](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/fe1ecf58-e18b-4982-b8e2-5c59d41c7a56)
 
-  1. S3 bucket
-  ![s3_bucket Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20152437.png)
+   ![instance1](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/b8671214-89de-42bb-8a49-fdb072b3ca69)
 
-  2. EC2
-  ![ec2 Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20152437.png)
-
-  3. Security group
-  ![securitygrp Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20151230.png)
-
-  4. VPC
-  ![vpc Screenshot](https://github.com/adityajha28/Terraform_Assignment_2/blob/master/Screenshots/Screenshot%202024-02-22%20151230.png)
+  - Security group
+    
+   ![securitygrp](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/7666a2be-ea62-4428-b23c-98e65dbca253)
+   
+   - VPC
+     
+   ![vpc](https://github.com/adityajha28/Terraform_Assignment_2/assets/127980079/bc386c96-f0d9-4dcf-aa70-4837fe5fab83)
+   
 
 
      
