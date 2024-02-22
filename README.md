@@ -127,5 +127,3 @@ Make sure to complete these prerequisites before proceeding with the Terraform c
 ## Important Note:
 - Ensure AWS CLI is configured with necessary credentials before running Terraform commands.
 - Review and customize the configurations according to your specific requirements.
-
-Feel free to include additional details or customize the instructions based on your specific project needs.
