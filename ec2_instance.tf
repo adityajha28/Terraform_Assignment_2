@@ -4,6 +4,7 @@ resource "aws_instance" "my_instance" {
   subnet_id     = aws_subnet.my_subnet.id
   key_name = aws_key_pair.my_key_pair.key_name
   vpc_security_group_ids = [aws_security_group.my_security_group.id]
+  associate_public_ip_address = true
   user_data = <<EOF
               #!/bin/bash
               yum udpate -y
